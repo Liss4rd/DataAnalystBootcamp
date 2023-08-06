@@ -65,7 +65,7 @@ FROM EmployeeSalary
 ![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/4d382bd3-3a7c-4dcb-bc0d-87823d3fedee)
 
 Please note, I goofed a little and added space between SQLTutorial so the database name is: "SQL Tutorial."
-It's not ideal, but you can use quotations to reference the database for the examples below.
+It's not ideal, but you can use quotations to reference the database for the example below.
 Normally, you would not want to add a space in tables, columns, or database names.
 
 
