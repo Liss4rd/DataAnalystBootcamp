@@ -4,7 +4,7 @@ I would highly recommend checking out his video! It's extremely helpful for begi
 
 For reference, the link to his video is: 
 
-[![Watch the video](https://img.youtube.com/vi/rGx1QNdYzvs&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=1/maxresdefault.jpg)](https://youtu.be/rGx1QNdYzvs&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=1)
+[![Watch the video](https://img.youtube.com/vi/rGx1QNdYzvs&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=1/0.jpg)](https://youtu.be/rGx1QNdYzvs&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=1)
 
 The boot camp itself focuses on SQL (Microsoft SQL Server), Excel, Tableau, Power BI, and Python (Jupyter Notebook/Anaconda).
 
