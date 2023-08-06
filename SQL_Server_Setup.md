@@ -12,6 +12,6 @@ New Database Creation: Right-click Databases -> "New Database..." -> Create data
 
 For this bootcamp, the chosen name is: "SQL Tutorial."
 
-![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/17d9ab48-ef22-498f-8b4d-e51df694d174)
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/fb8e3938-8cb3-4fa3-823d-3efcd251a834)
 
 
