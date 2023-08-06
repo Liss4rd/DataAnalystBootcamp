@@ -6,3 +6,9 @@ SQL Server (Express) 2022: [SQL Server Download](https://www.microsoft.com/en-us
 
 ***
 
+After setting up SQL Server, make sure to "Trust the certificate" in the Login Options tab to gain access.
+
+New Database Creation: Right-click Databases -> "New Database..." -> Create database name -> Ok
+
+For this bootcamp, the chosen name is: "SQL Tutorial."
+
