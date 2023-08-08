@@ -10,9 +10,9 @@ After setting up SQL Server, make sure to "Trust the certificate" in the Login O
 
 New Database Creation: Right-click Databases -> "New Database..." -> Create database name -> Ok
 
-For this bootcamp, the chosen name is: "SQL Tutorial."
+For this bootcamp, the chosen name is: "SQLTutorial."
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/fedc98fe-03da-43ec-a795-5b64a33d8d76)
 
-![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/fb8e3938-8cb3-4fa3-823d-3efcd251a834)
 
 New Table Creation: Right-click Table -> "New..." -> New Query
 
