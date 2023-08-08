@@ -64,16 +64,12 @@ FROM EmployeeSalary
 ```
 ![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/4d382bd3-3a7c-4dcb-bc0d-87823d3fedee)
 
-Please note, I goofed a little and added space between SQLTutorial so the database name is: "SQL Tutorial."
-It's not ideal, but you can use quotations to reference the database for the example below.
-Normally, you would not want to add a space in tables, columns, or database names.
-
 
 ```
 SELECT *
-FROM "SQL Tutorial".dbo.EmployeeSalary
+FROM SQLTutorial.dbo.EmployeeSalary
 ```
-![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/1c084dd5-323e-4e38-8843-d0fc3f069640)
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/c578f012-c0f5-495c-81ef-4367f568a046)
 
 
 
