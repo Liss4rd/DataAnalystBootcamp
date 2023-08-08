@@ -56,3 +56,56 @@ To change which sheet is read, we can use the "sheet_name" condition which allow
 
 ![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/5ab20526-ab66-459d-8a11-f81e3f208660)
 
+To change the max number of rows pulled and displayed, we can use the pd.set_option() function which will make changes to the previous data frame.
+
+```
+pd.set_option("display.max.rows", 235)
+```
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/159fcd2f-17a7-44d1-a6f4-a650e460bb92)
+
+```
+df4.info()
+```
+The above function shows the basic details regarding the data frame.
+
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/df841511-3e7f-4984-94ab-e22e1c3f8d17)
+
+```
+df4.shape
+```
+Displays the number of rows and columns respectively:
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/65d498f3-70f4-4875-ae8d-b49a3fb4cbb9)
+
+
+```
+df4.head(<number of rows>)
+```
+The above function shows the top number of rows specified:
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/28bd73ec-3965-4a3f-97ac-a3f1a28fe7a5)
+
+
+```
+df4.tail(<number of rows>)
+```
+The above function is the exact opposite of head() so it shows the last number of rows:
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/f1cda9b9-d014-4ca9-ae54-0139ef424084)
+
+
+```
+df4['Column Name']
+```
+The above function displays the entire column in the data frame with a bit of info at the bottom:
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/8c6591ba-d04b-40ac-869a-dd7a87c48fec)
+
+```
+df4.loc[<row num>]
+```
+The above function pulls a single record from the data frame and provides the information in each column. It can also be used with string/char values:
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/34fe3896-741b-43eb-8dbb-d61df7facfa7)
+
+
+```
+df4.iloc[<row num>]
+```
+The above function is better than loc() function because whether the index changes or not, it will pull the integer value of the row num:
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/053d7e6c-5418-4028-8299-467e953f0979)
