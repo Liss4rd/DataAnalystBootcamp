@@ -43,3 +43,16 @@ While this method works, there is a proper way to deal with text files as well.
 The function to use is: pd.read_table() which is very versatile and works with many different file types (not just txt files).
 
 ![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/86256e38-cf53-47aa-a162-eee4f908dc40)
+
+For JSON files, you can use the pd.read_json() function like so:
+
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/c0f92870-5e06-4428-b370-32a66fe63ab2)
+
+Excel files are a bit trickier because of the accumulation of multiple sheets per file. By default, it will only store the data on the first sheet in the data frame.
+
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/0c3cb0fd-9ac4-4192-8aa1-65df3e9158c7)
+
+To change which sheet is read, we can use the "sheet_name" condition which allows you to choose the name.
+
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/5ab20526-ab66-459d-8a11-f81e3f208660)
+
