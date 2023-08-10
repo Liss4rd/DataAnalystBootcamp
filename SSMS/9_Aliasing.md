@@ -1,2 +1,0 @@
-
-This section covers Aliasing.
