@@ -53,3 +53,23 @@ FROM #temp_Employee2
 ```
 ![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/1040fd70-d392-4244-af6a-72c1a6136005)
 
+Modifying the Stored Procedure Example:
+```
+USE [SQLTutorial]
+GO
+/****** Object:  StoredProcedure [dbo].[TEST]    Script Date: 8/9/2023 10:19:49 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[TEST]
+@JobTitle nvarchar(100)
+AS
+SELECT FirstName, LastName, @JobTitle
+FROM EmployeeDemographics
+```
+
+```
+EXEC TEST @JobTitle = 'Salesman'
+```
+![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/ad08a405-066b-4b86-9066-e88066444400)
