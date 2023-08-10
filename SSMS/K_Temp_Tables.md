@@ -28,7 +28,7 @@ FROM #temp_Employee
 ![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/cb26ac65-0bf1-4c86-bc68-4b5d6e91dc60)
 
 If the temp table already exists, you might run into an error when you try to create it 
-a second time. To avoid this, use: "DROP TABLE IF EXISTS <table name>".
+a second time. To avoid this, use: "DROP TABLE IF EXISTS TABLE_NAME".
 
 Temp Employee2 Table Example:
 ```
