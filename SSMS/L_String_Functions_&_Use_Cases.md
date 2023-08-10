@@ -18,14 +18,11 @@ INSERT INTO EmployeeErrors VALUES
 ('1001 ', 'Jimbo', 'Halbert'),
 (' 1002', 'Pamela', 'Beasely'),
 ('1005', 'TOby', 'Flenderson - Fired')
-
-SELECT EmployeeID, TRIM(EmployeeID) as ID_TRIM
-FROM EmployeeErrors
-
---Using TRIM, LTRIM, RTRIM
 ```
 TRIM Example:
 ```
+SELECT EmployeeID, TRIM(EmployeeID) as ID_TRIM
+FROM EmployeeErrors
 ```
 ![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/66d8c710-3e58-466c-850c-df2c9e3e18a7)
 
