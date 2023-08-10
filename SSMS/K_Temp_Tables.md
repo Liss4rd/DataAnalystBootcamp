@@ -27,9 +27,12 @@ FROM #temp_Employee
 ```
 ![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/cb26ac65-0bf1-4c86-bc68-4b5d6e91dc60)
 
+If the temp table already exists, you might run into an error when you try to create it 
+a second time. To avoid this, use: "DROP TABLE IF EXISTS <table name>".
 
 Temp Employee2 Table Example:
 ```
+DROP TABLE IF EXISTS #temp_Employee2
 CREATE TABLE #temp_Employee2
 (
 JobTitle VARCHAR(50),
@@ -47,8 +50,6 @@ GROUP BY JobTitle
 
 SELECT *
 FROM #temp_Employee2
-
---DROP TABLE #temp_Employee
 ```
 ![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/1040fd70-d392-4244-af6a-72c1a6136005)
 
