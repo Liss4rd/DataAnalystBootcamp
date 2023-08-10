@@ -25,6 +25,7 @@ FROM EmployeeErrors
 --Using TRIM, LTRIM, RTRIM
 ```
 TRIM Example:
+
 ![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/66d8c710-3e58-466c-850c-df2c9e3e18a7)
 
 LTRIM Example:
