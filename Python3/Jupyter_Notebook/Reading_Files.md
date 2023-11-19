@@ -101,6 +101,7 @@ The above function displays the entire column in the data frame with a bit of in
 df4.loc[<row num>]
 ```
 The above function pulls a single record from the data frame and provides the information in each column. It can also be used with string/char values:
+
 ![image](https://github.com/Liss4rd/DataAnalystBootcamp/assets/66858250/34fe3896-741b-43eb-8dbb-d61df7facfa7)
 
 
